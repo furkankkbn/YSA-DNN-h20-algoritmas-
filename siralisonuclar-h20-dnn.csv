@@ -1,0 +1,32 @@
+MSE: 0.13510893107831776
+RMSE: 0.3675716679483305
+LogLoss: 0.4342364167738111
+Null degrees of freedom: 9999
+Residual degrees of freedom: 9996
+Null deviance: 13828.113387424315
+Residual deviance: 8684.728335476222
+AIC: 8692.728335476222
+AUC: 0.9078980932626474
+pr_auc: 0.9133078038350108
+Gini: 0.8157961865252947
+Confusion Matrix (Act/Pred) for max f1 @ threshold = 0.4244353261440533: 
+       0     1     Error    Rate
+-----  ----  ----  -------  ----------------
+0      3357  1348  0.2865   (1348.0/4705.0)
+1      485   4810  0.0916   (485.0/5295.0)
+Total  3842  6158  0.1833   (1833.0/10000.0)
+Maximum Metrics: Maximum metrics at their respective thresholds
+
+metric                       threshold    value     idx
+---------------------------  -----------  --------  -----
+max f1                       0.424435     0.839955  238
+max f2                       0.336009     0.906123  278
+max f0point5                 0.608289     0.84576   157
+max accuracy                 0.490261     0.8229    209
+max precision                0.933243     1         0
+max recall                   0.153834     1         365
+max specificity              0.933243     1         0
+max absolute_mcc             0.48854      0.644284  210
+max min_per_class_accuracy   0.525608     0.818319  193
+max mean_per_class_accuracy  0.499048     0.821104  205
+Gains/Lift Table: Avg response rate: 52,95 %, avg score: 52,89 %
